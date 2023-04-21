@@ -1,0 +1,167 @@
+/*Universal selector setting all elements to have 0 margins and padding*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Sets background color of body*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Sets padding, font family, backround color, and text color for header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Sets display and font size for h1 in the header*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Changes font color for the letters "seo" in h1*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Sets padding, margin, float, font family and size of navigation links*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Removes bullet points from navigation links*/
+.header nav ul {
+    list-style-type: none;
+}
+
+/*Sets margin and displays navigation links inline*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Sets the font color and no decoration of the text in the links*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Sets the font size for the paragraphs on the page*/
+p {
+    font-size: 16px;
+}
+
+/*Sets the dimensions, margin, position, and link for the background image*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Sets two images in the main section to float left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Sets one image in the main section to float right*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Defines the width, display, and margins of the sections in the main section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Defines margin, padding, size, font, background, and font color of each section in the main section*/
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sets max height for images in main section*/
+.search-engine-optimization img, 
+.online-reputation-management img, 
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Sets margin and font size for headers in the main setion*/
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Defines properties of benefits section*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/*Sets bottom margin and font color*/
+.benefit-lead,
+.benefit-brand, 
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Sets margin and centers text for headers in benefits section*/
+.benefit-lead h3, 
+.benefit-brand h3, 
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Arranges images vertically, sets margin, and width of images*/
+.benefit-lead img, 
+.benefit-brand img, 
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Sets padding, font family, aligns text in center, sides of box, is pushed below other floating elements*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Sets font size for heading in footer*/
+.footer h4 {
+    font-size: 20px;
+}
